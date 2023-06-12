@@ -66,10 +66,8 @@ let countOdd = 0;
 
 
 for ( let i = 0; i < array22.length; i++){
-    let evenNum = array22[i] / 2;
-    let intNum = Math.floor(evenNum);
-    if(evenNum === intNum){
-    } else {
+
+    if(array22[i] > 0 && array22[i] % 2 !== 0){
         countOdd++;
     }
 }
