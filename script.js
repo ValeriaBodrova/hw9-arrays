@@ -95,3 +95,16 @@ for ( let i = 0; i < array22.length; i++){
     }
 }
 console.log(sumEvenPos);
+
+//task9
+
+let sumOddPos = 0;
+
+
+for ( let i = 0; i < array22.length; i++){
+
+    if(array22[i] > 0 && array22[i] % 2 !== 0){
+        sumOddPos += array22[i];
+    }
+}
+console.log(sumOddPos);
