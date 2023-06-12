@@ -29,3 +29,12 @@ for ( let i = 0; i < array22.length; i++){
 
 console.log(sum);
 console.log(count);
+
+//task3
+
+
+let minValue = Math.min.apply(null, array22);
+console.log(minValue);
+
+let index = array22.indexOf(minValue);
+console.log(index);
