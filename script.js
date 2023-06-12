@@ -46,3 +46,17 @@ console.log(maxValue);
 
 let index41 = array22.indexOf(maxValue);
 console.log(index41);
+
+//task5
+
+
+let countNegative = 0;
+
+
+for ( let i = 0; i < array22.length; i++){
+    if(array22[i] < 0){
+        countNegative++;
+    }
+}
+
+console.log(countNegative);
