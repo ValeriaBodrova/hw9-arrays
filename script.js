@@ -38,3 +38,11 @@ console.log(minValue);
 
 let index = array22.indexOf(minValue);
 console.log(index);
+
+//task4
+
+let maxValue = Math.max.apply(null, array22);
+console.log(maxValue);
+
+let index41 = array22.indexOf(maxValue);
+console.log(index41);
