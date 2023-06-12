@@ -49,9 +49,7 @@ console.log(index41);
 
 //task5
 
-
 let countNegative = 0;
-
 
 for ( let i = 0; i < array22.length; i++){
     if(array22[i] < 0){
@@ -60,3 +58,19 @@ for ( let i = 0; i < array22.length; i++){
 }
 
 console.log(countNegative);
+
+//task6
+
+
+let countOdd = 0;
+
+
+for ( let i = 0; i < array22.length; i++){
+    let evenNum = array22[i] / 2;
+    let intNum = Math.floor(evenNum);
+    if(evenNum === intNum){
+    } else {
+        countOdd++;
+    }
+}
+console.log(countOdd);
