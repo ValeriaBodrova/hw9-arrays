@@ -84,3 +84,14 @@ for ( let i = 0; i < array22.length; i++){
     }
 }
 console.log(countEven);
+
+//task8
+let sumEvenPos = 0;
+
+for ( let i = 0; i < array22.length; i++){
+
+    if(array22[i] > 0 && array22[i] % 2 === 0){
+        sumEvenPos += array22[i];
+    }
+}
+console.log(sumEvenPos);
