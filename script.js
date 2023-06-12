@@ -108,3 +108,28 @@ for ( let i = 0; i < array22.length; i++){
     }
 }
 console.log(sumOddPos);
+
+//task10
+
+let productPos = 0;
+
+
+for ( let i = 0; i < array22.length; i++){
+
+    if(array22[i] > 0){
+        productPos += array22[i] * array22[i];
+    }
+}
+console.log(productPos);
+
+//task11
+
+let keepIndex = array22.indexOf(maxValue);
+
+for ( let i = 0; i < array22.length; i++){
+    if(i !== keepIndex){
+    array22[i] = 0;
+    } 
+}
+
+console.log(array22);
